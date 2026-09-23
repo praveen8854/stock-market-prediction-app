@@ -10,8 +10,8 @@ def preprocess_data(data):
     Returns:
     DataFrame: The cleaned and preprocessed data.
     """
-    # Handle missing values
-    data = data.dropna()
+    # Handle missing values    data = data.dropna()
+    print(data.head())
 
     # Convert date column to datetime format if it exists
     if 'date' in data.columns:
